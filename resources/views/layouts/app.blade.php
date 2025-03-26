@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{ config('app.name', 'Pranto Biswas') }}</title>
         <script src="https://kit.fontawesome.com/2aee2ea5d2.js" crossorigin="anonymous"></script>
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/image/1k.webp') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/pranto.png') }}">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

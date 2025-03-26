@@ -7,7 +7,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="/" class="flex items-center font-harlow text-sky-800 dark:text-sky-300 text-4xl">
+                    <a href="/" class="flex items-center font-[Harlow] text-sky-800 dark:text-sky-300 text-4xl">
                         Pranto
                     </a>
                 </div>
@@ -34,6 +34,10 @@
                     <x-nav-link :href="route('contact')">
                         {{ __('Contact') }}
                     </x-nav-link>
+
+                    <a href="#" class="flex items-center">
+                        <button class="bg-blue-400 p-1 px-3 text-[15px] rounded-3xl">Order a Website Now</button>
+                    </a>
 
                 </div>
             </div>

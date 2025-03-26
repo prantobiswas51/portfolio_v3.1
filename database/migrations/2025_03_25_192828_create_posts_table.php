@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('slug')->unique()->nullable();
+            $table->foreignId('category_id')->constrained();
+            $table->text('content');
+            $table->enum('status', ['Published','Draft']);
+            $table->string('featured_image')->nullable();
+            $table->unsignedBigInteger('views')->default(0);            
             $table->timestamps();
         });
     }

@@ -30,7 +30,8 @@
 	font-family: 'Harlow';
 	font-style: normal;
 	font-weight: 400;
-	src: url('../../font/Harlow/harlow-solid.woff'), url("../../font/Harlow/harlow-solid.woff2");
+	src: url("/public/assets/font/Harlow/harlow-solid.woff2") format('woff2'),
+         url("/public/assets/font/Harlow/harlow-solid.woff") format('woff');
 }
 
 .croppie-container .cr-boundary {

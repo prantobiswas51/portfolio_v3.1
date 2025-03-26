@@ -7,7 +7,7 @@
                 <div class="name">Hello</div>
                 <div class="name flex">
                     <h1>I am </h1>
-                    <h1 class="text-2xl font-harlow px-4"> Pranto Biswas </h1>
+                    <h1 class="text-2xl font-[Harlow] px-4"> Pranto Biswas </h1>
                 </div>
                 <div class="name">Full Stack Developer</div>
                 <div class="name">Transforming ideas into stunning digital experiences, from design to development.
@@ -16,31 +16,38 @@
                 <div class="my-4 flex">
                     <div>
                         <a class="mr-2" href="https://github.com/prantobiswas51">
-                            <i
-                                class="fa-solid fa-xl fa-brands fa-github">
-                            </i> </a>
+                            <i class="fa-solid fa-xl fa-brands fa-github"></i> </a>
                         <a class="mr-2" href="https://www.facebook.com/prantobd320/">
-                            <i
-                                class="fa-solid fa-brands fa-xl fa-facebook"></i> </a>
+                            <i class="fa-solid fa-brands fa-xl fa-facebook"></i> </a>
                         <a class="mr-2" href="https://www.linkedin.com/in/prantobd320/">
-                            <i
-                                class="fa-solid fa-brands fa-xl fa-linkedin"></i> </a>
+                            <i class="fa-solid fa-brands fa-xl fa-linkedin"></i> </a>
                         <a class="mr-2" href="https://www.youtube.com/techland360">
-                            <i
-                                class="fa-solid fa-brands fa-xl fa-youtube"></i> </a>
+                            <i class="fa-solid fa-brands fa-xl fa-youtube"></i> </a>
                     </div>
 
                     <div class="flex items-center">
-                        <a class="mr-2" href="https://www.upwork.com/freelancers/prantobiswasdev"><x-upwork /></a>
-                        <a class="mr-2" href="https://www.fiverr.com/users/sanjoy320"><x-fiverr /></a>
+                        <a class="mr-2" href="https://www.upwork.com/freelancers/prantobiswasdev">
+                            <x-upwork />
+                        </a>
+                        <a class="mr-2" href="https://www.fiverr.com/users/sanjoy320">
+                            <x-fiverr />
+                        </a>
                     </div>
 
                 </div>
 
                 <div class="">
-                    <a href="mailto:prantobd320@gmail.com"><x-primary-button class="my-4 justify-center bg-sky-400">Hire Me Now!!</x-primary-button></a>
-                    <a href="{{ asset('assets/images/prantoCV.pdf') }}"><x-primary-button class="my-4 justify-center dark:text-gray-800 dark:bg-gray-200 bg-gray-800">Download CV</x-primary-button></a>
-                    <a href="{{ route('skills') }}"><x-primary-button class="my-4 justify-center dark:bg-gray-200 dark:text-gray-800 bg-gray-800">Check Works</x-primary-button></a>
+                    <a href="mailto:prantobd320@gmail.com">
+                        <x-primary-button class="my-4 justify-center bg-sky-500 dark:text-gray-800">Hire Me Now!!</x-primary-button>
+                    </a>
+                    <a href="{{ asset('assets/images/prantoCV.pdf') }}">
+                        <x-primary-button class="my-4 justify-center dark:text-gray-800 dark:bg-gray-200 bg-gray-800">
+                            Download CV</x-primary-button>
+                    </a>
+                    <a href="{{ route('skills') }}">
+                        <x-primary-button class="my-4 justify-center dark:bg-gray-200 dark:text-gray-800 bg-gray-800">
+                            Check Works</x-primary-button>
+                    </a>
                 </div>
             </div>
 
@@ -101,58 +108,58 @@
             <div class="grid p-4 grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="grid gap-4">
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                            src="{{ asset('assets/images/reviews/review1.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review1.png') }}"
+                            alt="">
                     </div>
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review2.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review2.png') }}"
+                            alt="">
                     </div>
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review3.png') }}" alt="">
-                    </div>
-                </div>
-                <div class="grid gap-4">
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review4.png') }}" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review5.png') }}" alt="">
-                    </div>
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review6.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review3.png') }}"
+                            alt="">
                     </div>
                 </div>
                 <div class="grid gap-4">
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review7.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review4.png') }}"
+                            alt="">
                     </div>
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review8.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review5.png') }}"
+                            alt="">
                     </div>
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review9.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review6.png') }}"
+                            alt="">
                     </div>
                 </div>
                 <div class="grid gap-4">
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review1.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review7.png') }}"
+                            alt="">
                     </div>
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review7.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review8.png') }}"
+                            alt="">
                     </div>
                     <div>
-                        <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/reviews/review1.png') }}" alt="">
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review9.png') }}"
+                            alt="">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review1.png') }}"
+                            alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review7.png') }}"
+                            alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/reviews/review1.png') }}"
+                            alt="">
                     </div>
                 </div>
             </div>
