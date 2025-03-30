@@ -22,13 +22,13 @@ jobs:
 
       - name: Deploy Code
         run: |
-          ssh blog-ssh@68.183.179.31 << 'EOF'
+          ssh -o StrictHostKeyChecking=no blog-ssh@68.183.179.31 << 'EOF'
           cd /home/techland360-blog/htdocs/blog.techland360.com/
           php artisan down
           git fetch --all
           git reset --hard origin/main
           git pull origin main
-          composer install
+          composer install --no-interaction --prefer-dist --optimize-autoloader
           npm install
           npm run build
           php artisan key:generate
@@ -38,3 +38,4 @@ jobs:
           php artisan view:clear
           php artisan up
           EOF
+        shell: bash
