@@ -93,17 +93,106 @@
 
         </section>
 
+        <section class="">
+            <div class="flex flex-col md:flex-row">
+                <div
+                    class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
+                    <p class="text-2xl">My Skills</p>
+                    <p>Check out my skills and get your favourite quotes</p>
+                </div>
+            </div>
+            
+            <div class="m-2 sm:flex sm:justify-center flex-wrap">
+                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/Web-design.jpg" alt="" />
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Web Design</h5>
+                        <p class="mb-4 text-base">
+                            Get a design for your website or design your website with our help. This category includes WordPress design like Elementor, Newpaper (TagDiv Composer) etc designs too. Hire us for any
+                            website design jobs.
+                        </p>
+                  </div>
+                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
+                  </div>
+                </div>
+            
+                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/Web_development.png" alt="" />
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Web Development</h5>
+                        <p class="mb-4 text-base">
+                        Develop your website's funtionality through us. It could be custom coding or funtionalities that could be gained through plugins or themes.
+                        </p>
+                  </div>
+                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
+                  </div>
+                </div>
+            
+                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/Debugging-wp.png" alt="" />
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">WordPress Debugging</h5>
+                        <p class="mb-4 text-base">
+                        Debug or remove virus from your website with our help. We fix any design or funtionality related issues. Removing malware from website also includes in this category.
+                        </p>
+                  </div>
+                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
+                  </div>
+                </div>
+            
+                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/wp-plugin-dev.png" alt="" />
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">WordPress Plugin Development</h5>
+                        <p class="mb-4 text-base">
+                            We Develop custom plugin to enchance your website's funtionality. Have a chat with us to understand if you need it or not!
+                        </p>
+                  </div>
+                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
+                  </div>
+                </div>
+            
+                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/Laravel_Developer.png" alt="" />
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Laravel Developer</h5>
+                        <p class="mb-4 text-base">
+                            Develop your website with Laravel Framework and enjoy it awesome services. If you want fully custom website then you can choose laravel framework to build one.
+                        </p>
+                  </div>
+                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
+                  </div>
+                </div>
+            
+                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/graphics-design.jpg" alt="" />
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Graphic Design</h5>
+                        <p class="mb-4 text-base">
+                        Design graphical content, photo edit, website images, banners, icons and so on. We use Photpshop, Illustrator, Xd and Figma as required. 
+                        </p>
+                  </div>
+                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
+                  </div>
+                </div>
+            </div>
+        </section>
+
         <section class="text-black  dark:text-black">
 
             <div class="flex flex-col md:flex-row">
                 <div
-                    class="bg-gray-100 dark:bg-gray-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
+                    class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
                     <p class="text-2xl">Reviews</p>
                     <p>Please visit my Fiverr to verify the reviews</p>
                 </div>
             </div>
-
-
 
             <div class="grid p-4 grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="grid gap-4">

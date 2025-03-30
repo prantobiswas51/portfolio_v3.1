@@ -3,31 +3,32 @@
 namespace App\Filament\Resources;
 
 use Filament\Forms;
+use App\Models\Work;
 use Filament\Tables;
-use App\Models\Category;
 use Filament\Forms\Form;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
-use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Eloquent\Builder;
-use App\Filament\Resources\CategoryResource\Pages;
+use App\Filament\Resources\WorkResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use App\Filament\Resources\CategoryResource\RelationManagers;
+use App\Filament\Resources\WorkResource\RelationManagers;
+use Filament\Tables\Columns\TextColumn;
 
-class CategoryResource extends Resource
+class WorkResource extends Resource
 {
-    protected static ?string $model = Category::class;
+    protected static ?string $model = Work::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-squares-plus';
+    protected static ?string $navigationIcon = 'heroicon-o-briefcase';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                TextInput::make('name')->required()->unique(),
-                TextInput::make('slug')->hidden(),
-                TextInput::make('description'),
+                TextInput::make('title')->required(),
+                TextInput::make('type')->required(),
+                TextInput::make('link')->required(),
+                TextInput::make('cms')->required(),
             ]);
     }
 
@@ -35,16 +36,16 @@ class CategoryResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('name'),
-                TextColumn::make('slug')
+                TextColumn::make('title'),
+                TextColumn::make('type'),
+                TextColumn::make('link'),
+                TextColumn::make('cms'),
             ])
             ->filters([
                 //
             ])
             ->actions([
-                Tables\Actions\ViewAction::make(),
                 Tables\Actions\EditAction::make(),
-                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
@@ -63,9 +64,9 @@ class CategoryResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListCategories::route('/'),
-            'create' => Pages\CreateCategory::route('/create'),
-            'edit' => Pages\EditCategory::route('/{record}/edit'),
+            'index' => Pages\ListWorks::route('/'),
+            'create' => Pages\CreateWork::route('/create'),
+            'edit' => Pages\EditWork::route('/{record}/edit'),
         ];
     }
 }

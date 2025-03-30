@@ -23,10 +23,6 @@
                         {{ __('Posts') }}
                     </x-nav-link>
 
-                    <x-nav-link :href="route('skills')">
-                        {{ __('Skills') }}
-                    </x-nav-link>
-
                     <x-nav-link :href="route('works')">
                         {{ __('Works') }}
                     </x-nav-link>
@@ -80,11 +76,13 @@
 
                             <x-slot name="content">
 
-                                @if (Auth::user()->role == "Admin")
-                                    <x-dropdown-link :href="route('admin')">
-                                        {{ __('Admin Panel') }}
-                                    </x-dropdown-link>                                    
-                                @endif
+                                @auth
+                                    @if (Auth::user()->role == "Admin")
+                                        <x-dropdown-link :href="route('filament.admin.pages.dashboard')">
+                                            {{ __('Admin Panel') }}
+                                        </x-dropdown-link>                                    
+                                    @endif
+                                @endauth
                                 <x-dropdown-link :href="route('dashboard')">
                                     {{ __('Dashboard') }}
                                 </x-dropdown-link>
@@ -154,10 +152,6 @@
                 {{ __('Posts') }}
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('skills')">
-                {{ __('Skills') }}
-            </x-responsive-nav-link>
-
             <x-responsive-nav-link :href="route('works')">
                 {{ __('Works') }}
             </x-responsive-nav-link>
@@ -177,15 +171,17 @@
                 </div>
 
                 <div class="mt-3 space-y-1">
+                    @auth    
                     @if (Auth::user()->role != "Admin")
                         <x-responsive-nav-link :href="route('dashboard')">
                             {{ __('Dashboard') }}
                         </x-responsive-nav-link>
                     @else 
-                        <x-responsive-nav-link :href="route('admin')">
+                        <x-responsive-nav-link :href="route('filament.admin.pages.dashboard')">
                             {{ __('Admin Panel') }}
                         </x-responsive-nav-link>
                     @endif
+                    @endauth
 
                     <x-responsive-nav-link :href="route('profile.edit')">
                         {{ __('Profile') }}

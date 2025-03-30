@@ -1,0 +1,40 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main  # Change this if needed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H 68.183.179.31 >> ~/.ssh/known_hosts
+
+      - name: Deploy Code
+        run: |
+          ssh blog-ssh@68.183.179.31 << 'EOF'
+          cd /home/techland360-blog/htdocs/blog.techland360.com/
+          php artisan down
+          git fetch --all
+          git reset --hard origin/main
+          git pull origin main
+          composer install
+          npm install
+          npm run build
+          php artisan key:generate
+          php artisan cache:clear
+          php artisan config:clear
+          php artisan route:clear
+          php artisan view:clear
+          php artisan up
+          EOF
