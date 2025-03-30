@@ -16,7 +16,7 @@
                         <img class="h-auto max-w-full rounded-lg" src="{{ asset('storage/' . $post->featured_image) }}" alt="">
                         <p class="text-2xl py-2">{{ $post->title }}</p>
                         <p class="pb-2">{!! Str::limit(strip_tags($post->content), 80, '...') !!}</p>
-                        <a href="{{ route('single_post', $post->slug ?? 'null' ) }}"><button class="p-2 px-4 bg-sky-700 rounded-md w-full">Read More</button></a>
+                        <a href="{{ route('single_post', $post->slug ?? 'not found' ) }}"><button class="p-2 px-4 bg-sky-700 rounded-md w-full">Read More</button></a>
                     </div>
                 </div>
                 @endforeach
