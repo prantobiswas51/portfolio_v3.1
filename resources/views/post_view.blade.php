@@ -36,15 +36,21 @@
                     <p class=" py-3">
                         I am an full-stack developer, developing custom websites with laravel and Wordpress websites. Expert in Elementor pro, Newspaper, Astra theme and more. Building woo-commerce websites. Custom Landing pages or Product pages. I might do more if you just lemme know :)
                     </p>
-                    <button class="p-2 dark:text-gray-100 bg-sky-700 mb-2 flex w-full items-center justify-center rounded">
-                        Inbox Now
-                    </button>
-                    <button class="p-2 dark:text-gray-100 bg-green-700 mb-2 flex w-full items-center justify-center rounded">
-                        Whatsapp Now
-                    </button>
-                    <button class="p-2 dark:text-gray-100 bg-sky-700 flex w-full items-center justify-center rounded">
-                        Order a website Now
-                    </button>
+                    <a href="https://facebook.com/prantobd320" target="_blank">
+                        <button class="p-2 dark:text-gray-100 bg-sky-700 mb-2 flex w-full items-center justify-center rounded">
+                            <img class="w-6 h-6 mr-1" src="{{ asset('assets/images/facebook.jpg') }}" alt=""> Inbox Now
+                        </button>
+                    </a>
+                    <a href="https://wa.me/01823744169?text=Hello Developer?">
+                        <button class="p-2 dark:text-gray-100 bg-green-700 mb-2 flex w-full items-center justify-center rounded">
+                            <img class="w-6 h-6 mr-1" src="{{ asset('assets/images/whatsapp.webp') }}" alt=""> Whatsapp Now
+                        </button>
+                    </a>
+                    <a href="mailto:prantobd320@gmail.com">
+                        <button class="p-2 dark:text-gray-100 bg-sky-700 flex w-full items-center justify-center rounded">
+                            <x-heroicon-s-envelope class="w-6 h-6 mr-1" /> Order a website Now
+                        </button>
+                    </a>
                 </div>
             </div>
 
