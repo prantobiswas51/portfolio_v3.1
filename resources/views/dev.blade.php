@@ -42,7 +42,7 @@
                     </a>
                     <a href="{{ asset('assets/images/prantoCV.pdf') }}">
                         <x-primary-button class="my-4 justify-center dark:text-gray-800 dark:bg-gray-200 bg-gray-800">
-                            Download CV</x-primary-button>
+                            Download CV Here</x-primary-button>
                     </a>
                     <a href="{{ route('skills') }}">
                         <x-primary-button class="my-4 justify-center dark:bg-gray-200 dark:text-gray-800 bg-gray-800">
