@@ -12,7 +12,7 @@
                             GET IN TOUCH WITH US
                         </h2>
                         <p class="text-body-color m-3 mb-9 text-base leading-relaxed">
-                            Please use any of those method to contact me. I am active full time to reply to you
+                            Please use any of those method to contact me. I am active full time to reply to you.
                         </p>
                         <div class="mb-8 flex w-full max-w-[370px]">
                             <div
