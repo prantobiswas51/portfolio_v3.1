@@ -11,15 +11,13 @@
         <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 p-4">
             <a target="_blank" href="https://techland360.com">https://techland360.com</a>
             <a target="_blank" href="https://pranto.techland360.com">https://pranto.techland360.com</a>
-            <a target="_blank" href="https://goldendays.techland360.com">https://goldendays.techland360.com</a>
-
+            <a target="_blank" href="https://bongomaker.com">https://bongomaker.com</a>
             <a target="_blank" href="https://itsourov.com">https://itsourov.com</a>
             <a target="_blank" href="http://regalregistrars.co.uk/searchData.html">http://regalregistrars.co.uk/searchData.html</a>
             <a target="_blank" href="https://uqsr.world">https://uqsr.world</a>
             <a target="_blank" href="https://deheza.co.uk">https://deheza.co.uk</a>
             <a target="_blank" href="https://gocartfull.com">https://gocartfull.com</a>
             <a target="_blank" href="https://myhomecookingblog.com">https://myhomecookingblog.com</a>
-            <a target="_blank" href="https://wh0rescope.com">https://wh0rescope.com</a>
         </div>
     </div>
 
@@ -40,11 +38,12 @@
         <div class="grid  grid-cols-1 md:grid-cols-2 gap-4 p-4">
             <a target="_blank" href="https://laravel.itsourov.com">https://laravel.itsourov.com</a>
             <a target="_blank" href="https://igse.itsourov.com">https://igse.itsourov.com</a>
-            <a target="_blank" href="https://btcminingg.com">https://btcminingg.com</a>
-            <a target="_blank" href="https://itsourov.com">https://itsourov.com</a>
             <a target="_blank" href="https://pranto.techland360.com">https://pranto.techland360.com</a>
-            
-            
+            <a target="_blank" href="https://wh0rescope.com">https://astrologybymari.com</a>            
+            <a target="_blank" href="https://tappayz.com">https://tappayz.com</a>            
+            <a target="_blank" href="https://salonipro.it">https://salonipro.it</a>            
+            <a target="_blank" href="https://noleggiopontiroma.it">https://noleggiopontiroma.it</a>            
+        
         </div>
     </div>
 

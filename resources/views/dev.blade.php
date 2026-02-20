@@ -40,7 +40,7 @@
                     <a href="mailto:prantobd320@gmail.com">
                         <x-primary-button class="my-4 justify-center bg-sky-500 dark:text-gray-800">Hire Me Now!!</x-primary-button>
                     </a>
-                    <a href="{{ asset('assets/images/prantoCV.pdf') }}">
+                    <a href="{{ asset('assets/images/prantoCV_new.pdf') }}">
                         <x-primary-button class="my-4 justify-center dark:text-gray-800 dark:bg-gray-200 bg-gray-800">
                             Download CV Here</x-primary-button>
                     </a>
