@@ -39,7 +39,7 @@
             <a target="_blank" href="https://laravel.itsourov.com">https://laravel.itsourov.com</a>
             <a target="_blank" href="https://igse.itsourov.com">https://igse.itsourov.com</a>
             <a target="_blank" href="https://pranto.techland360.com">https://pranto.techland360.com</a>
-            <a target="_blank" href="https://wh0rescope.com">https://astrologybymari.com</a>            
+            <a target="_blank" href="https://astrologybymari.com">https://astrologybymari.com</a>            
             <a target="_blank" href="https://tappayz.com">https://tappayz.com</a>            
             <a target="_blank" href="https://salonipro.it">https://salonipro.it</a>            
             <a target="_blank" href="https://noleggiopontiroma.it">https://noleggiopontiroma.it</a>            
