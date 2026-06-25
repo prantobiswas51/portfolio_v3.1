@@ -9,7 +9,7 @@
                     <h1>I am </h1>
                     <h1 class="text-2xl font-[Harlow] px-4"> Pranto Biswas </h1>
                 </div>
-                <div class="name">Full Stack Developer</div>
+                <div class="name">Full-Stack Developer & IoT Engineer</div>
                 <div class="name">Transforming ideas into stunning digital experiences, from design to development.
                     Let's create something extraordinary together.</div>
 
@@ -38,9 +38,10 @@
 
                 <div class="">
                     <a href="mailto:prantobd320@gmail.com">
-                        <x-primary-button class="my-4 justify-center bg-sky-500 dark:text-gray-800">Hire Me Now!!</x-primary-button>
+                        <x-primary-button class="my-4 justify-center bg-sky-500 dark:text-gray-800">Hire Me Now!!
+                        </x-primary-button>
                     </a>
-                    <a href="{{ asset('assets/images/prantoCV_new.pdf') }}">
+                    <a href="{{ asset('assets/images/Pranto Resume DEV+IOT.pdf') }}">
                         <x-primary-button class="my-4 justify-center dark:text-gray-800 dark:bg-gray-200 bg-gray-800">
                             Download CV Here</x-primary-button>
                     </a>
@@ -82,12 +83,24 @@
                 <div
                     class="bg-gray-100 dark:bg-gray-800 dark:text-gray-50 p-4 shadow-lg border rounded-lg my-4 md:mx-4 w-full">
                     <p class="text-2xl">Profession</p>
-                    <p>Web Designer, Web Developer, Graphic Designer, UI Designer</p>
+                    <p>
+                        Full-Stack Developer,
+                        Laravel Developer,
+                        IoT Developer,
+                        Embedded Systems Developer
+                    </p>
                 </div>
                 <div
                     class="bg-gray-100 dark:bg-gray-800 dark:text-gray-50 p-4 shadow-lg border rounded-lg my-4 md:mx-4 w-full">
                     <p class="text-2xl">Other Skills</p>
-                    <p>Personal Asistant, Graphic Designer, Photo editor, Canva designer, Domain - Hosting expert</p>
+                    <p>
+                        Linux Server Administration,
+                        VPS & Hosting Management,
+                        Git Version Control,
+                        Electronics Prototyping,
+                        PCB Development,
+                        3D Printing
+                    </p>
                 </div>
             </div>
 
@@ -95,100 +108,209 @@
 
         <section class="">
             <div class="flex flex-col md:flex-row">
-                <div
-                    class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
+                <div class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
                     <p class="text-2xl">My Skills</p>
                     <p>Check out my skills and get your favourite quotes</p>
                 </div>
             </div>
-            
+
             <div class="m-2 sm:flex sm:justify-center flex-wrap">
-                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                <div
+                    class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
                     <img class="rounded-t-lg" src="./images/Web-design.jpg" alt="" />
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">Web Design</h5>
                         <p class="mb-4 text-base">
-                            Get a design for your website or design your website with our help. This category includes WordPress design like Elementor, Newpaper (TagDiv Composer) etc designs too. Hire us for any
+                            Get a design for your website or design your website with our help. This category includes
+                            WordPress design like Elementor, Newpaper (TagDiv Composer) etc designs too. Hire us for any
                             website design jobs.
                         </p>
-                  </div>
-                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
-                  </div>
+                    </div>
+                    <div
+                        class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                        <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a
+                                quote Now</button></a>
+                    </div>
                 </div>
-            
-                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+
+                <div
+                    class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
                     <img class="rounded-t-lg" src="./images/Web_development.png" alt="" />
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">Web Development</h5>
                         <p class="mb-4 text-base">
-                        Develop your website's funtionality through us. It could be custom coding or funtionalities that could be gained through plugins or themes.
+                            Develop your website's funtionality through us. It could be custom coding or funtionalities
+                            that could be gained through plugins or themes.
                         </p>
-                  </div>
-                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
-                  </div>
+                    </div>
+                    <div
+                        class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                        <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a
+                                quote Now</button></a>
+                    </div>
                 </div>
-            
-                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+
+                <div
+                    class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
                     <img class="rounded-t-lg" src="./images/Debugging-wp.png" alt="" />
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">WordPress Debugging</h5>
                         <p class="mb-4 text-base">
-                        Debug or remove virus from your website with our help. We fix any design or funtionality related issues. Removing malware from website also includes in this category.
+                            Debug or remove virus from your website with our help. We fix any design or funtionality
+                            related issues. Removing malware from website also includes in this category.
                         </p>
-                  </div>
-                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
-                  </div>
+                    </div>
+                    <div
+                        class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                        <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a
+                                quote Now</button></a>
+                    </div>
                 </div>
-            
-                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+
+                <div
+                    class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
                     <img class="rounded-t-lg" src="./images/wp-plugin-dev.png" alt="" />
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">WordPress Plugin Development</h5>
                         <p class="mb-4 text-base">
-                            We Develop custom plugin to enchance your website's funtionality. Have a chat with us to understand if you need it or not!
+                            We Develop custom plugin to enchance your website's funtionality. Have a chat with us to
+                            understand if you need it or not!
                         </p>
-                  </div>
-                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
-                  </div>
+                    </div>
+                    <div
+                        class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                        <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a
+                                quote Now</button></a>
+                    </div>
                 </div>
-            
-                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+
+                <div
+                    class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
                     <img class="rounded-t-lg" src="./images/Laravel_Developer.png" alt="" />
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">Laravel Developer</h5>
                         <p class="mb-4 text-base">
-                            Develop your website with Laravel Framework and enjoy it awesome services. If you want fully custom website then you can choose laravel framework to build one.
+                            Develop your website with Laravel Framework and enjoy it awesome services. If you want fully
+                            custom website then you can choose laravel framework to build one.
                         </p>
-                  </div>
-                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
-                  </div>
+                    </div>
+                    <div
+                        class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
+                        <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a
+                                quote Now</button></a>
+                    </div>
                 </div>
-            
-                <div class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-                    <img class="rounded-t-lg" src="./images/graphics-design.jpg" alt="" />
+
+                <div
+                    class="flex min-w-[300px] flex-col m-2 rounded-lg bg-white dark:bg-gray-700 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                    <img class="rounded-t-lg" src="./images/iot-development.jpg" alt="" />
                     <div class="p-6">
-                        <h5 class="mb-2 text-xl font-medium leading-tight">Graphic Design</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight">
+                            IoT & Embedded Systems Development
+                        </h5>
                         <p class="mb-4 text-base">
-                        Design graphical content, photo edit, website images, banners, icons and so on. We use Photpshop, Illustrator, Xd and Figma as required. 
+                            Design and develop IoT devices using ESP32, Arduino and custom electronics.
+                            From firmware development and wireless communication to sensor integration,
+                            automation and cloud connectivity.
                         </p>
-                  </div>
-                  <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-                    <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white"><button class="">Get a quote Now</button></a>
-                  </div>
+                    </div>
+                    <div class="mt-auto rounded-b-lg border-t-2 border-neutral-100 bg-sky-500 px-6 py-3 text-center">
+                        <a href="mailto:prantobd320@gmail.com" class="text-black dark:text-white">
+                            <button>Get a quote Now</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
+
+        <section class="text-black dark:text-black">
+
+            <div class="flex flex-col md:flex-row">
+                <div class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg rounded-lg my-4 md:mx-4 w-full">
+                    <p class="text-2xl">IoT & Embedded Projects</p>
+                    <p>ESP32, Arduino, Electronics, PCB and Automation Projects</p>
+                </div>
+            </div>
+
+            <div class="grid p-4 grid-cols-2 md:grid-cols-4 gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('assets/images/iot/ac-dimmer-prototype.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/bm-lamps.jpg') }}"
+                        alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/bms-3s-batt.jpg') }}"
+                        alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/bongomaker-ups.jpg') }}"
+                        alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('assets/images/iot/custom-tx-rx-remote.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/power-supplyjpg') }}"
+                        alt="">
+                </div>
+
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/rasberry-pi.jpg') }}"
+                        alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Video Card -->
+            <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg">
+                <div class="aspect-video">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/fQBu9r1ubt8" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">
+                        Arduino Nano Wired Game Controller
+                    </h3>
+                    <p class="text-sm opacity-80">
+                        ESP32 & Arduino Project
+                    </p>
+                </div>
+            </div>
+
+            <!-- More video cards here -->
+            <div class="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg">
+                <div class="aspect-video">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/qja3eL1W9uY" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">
+                        Esp32 AC Dimmer & Light Controller
+                    </h3>
+                    <p class="text-sm opacity-80">
+                        ESP32 & Arduino Project
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
         <section class="text-black  dark:text-black">
 
             <div class="flex flex-col md:flex-row">
-                <div
-                    class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
+                <div class="bg-sky-100 dark:bg-sky-800 dark:text-gray-50 p-4 shadow-lg  rounded-lg my-4 md:mx-4 w-full">
                     <p class="text-2xl">Reviews</p>
                     <p>Please visit my Fiverr to verify the reviews</p>
                 </div>
