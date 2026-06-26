@@ -237,6 +237,7 @@
                 <div>
                     <img class="h-auto max-w-full rounded-lg"
                         src="{{ asset('assets/images/iot/ac-dimmer-prototype.jpg') }}" alt="">
+                        
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/bm-lamps.jpg') }}"
@@ -251,17 +252,23 @@
                         alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg"
-                        src="{{ asset('assets/images/iot/custom-tx-rx-remote.jpg') }}" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/custom-tx-rx-remote.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/power-supplyjpg') }}"
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/power-supply.jpg') }}"
                         alt="">
                 </div>
 
                 <div>
                     <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/rasberry-pi.jpg') }}"
                         alt="">
+                    
+                </div>
+
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('assets/images/iot/Bongomaker-ac-dimmer-pcb-3d-view.png') }}"
+                        alt="">
+                    
                 </div>
             </div>
 
